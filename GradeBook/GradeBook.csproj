@@ -11,7 +11,46 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="Enums\EnrollmentType.cs" />
+    <Compile Include="Enums\GradeBookType.cs" />
+    <Compile Include="Enums\StudentType.cs" />
+    <Compile Include="GradeBooks\BaseGradeBook.cs" />
+    <Compile Include="GradeBooks\RankedGradeBook.cs" />
+    <Compile Include="GradeBooks\StandardGradeBook.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.0\GradeBook.AssemblyInfo.cs" />
+    <Compile Include="obj\Release\netcoreapp2.0\GradeBook.AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="UserInterfaces\GradeBookUserInterface.cs" />
+    <Compile Include="UserInterfaces\StartingUserInterface.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\netcoreapp2.0\GradeBook.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\netcoreapp2.0\" />
+    <Folder Include="bin\Release\netcoreapp2.0\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\netcoreapp2.0\GradeBook.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp2.0\GradeBook.assets.cache" />
+    <None Include="obj\Debug\netcoreapp2.0\GradeBook.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp2.0\GradeBook.csprojAssemblyReference.cache" />
+    <None Include="obj\GradeBook.csproj.nuget.cache" />
+    <None Include="obj\GradeBook.csproj.nuget.g.props" />
+    <None Include="obj\GradeBook.csproj.nuget.g.targets" />
+    <None Include="obj\Release\netcoreapp2.0\GradeBook.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\netcoreapp2.0\GradeBook.assets.cache" />
+    <None Include="obj\Release\netcoreapp2.0\GradeBook.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Release\netcoreapp2.0\GradeBook.csprojAssemblyReference.cache" />
   </ItemGroup>
 
 </Project>
