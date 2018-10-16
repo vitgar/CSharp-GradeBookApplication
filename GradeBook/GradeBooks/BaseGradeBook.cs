@@ -14,12 +14,9 @@ namespace GradeBook.GradeBooks
         
         public string Name { get; set; }
         public List<Student> Students { get; set; }
-<<<<<<< HEAD
         public GradeBookType Type { get; set; }
-=======
-        
+       
 
->>>>>>> 7ee00acfa38b834006b5a1300fcc6b8460b40e5a
 
         public BaseGradeBook(string name)
         {
@@ -224,6 +221,7 @@ namespace GradeBook.GradeBooks
             else
                 return 'F';
         }
+
 
         /// <summary>
         ///     Converts json to the appropriate grade book type.
