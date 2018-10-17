@@ -1,24 +1,15 @@
-﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <StartupObject />
-    <FileUpgradeFlags>
-    </FileUpgradeFlags>
-    <UpgradeBackupLocation>
-    </UpgradeBackupLocation>
-    <OldToolsVersion>2.0</OldToolsVersion>
-    <ProjectGuid>{8356F33A-1E61-4367-B73B-8D000A05ACB3}</ProjectGuid>
   </PropertyGroup>
+
   <ItemGroup>
     <None Remove="*.gdbk" />
-    <Compile Remove="Enums\GradeBookType.cs" />
-    <Content Include="Enums\GradeBookType.cs" />
-    <None Include="obj\Debug\netcoreapp2.0\GradeBook.AssemblyInfoInputs.cache" />
-    <None Include="obj\Debug\netcoreapp2.0\GradeBook.csproj.CoreCompileInputs.cache" />
-    <None Include="obj\Release\netcoreapp2.0\GradeBook.AssemblyInfoInputs.cache" />
-    <None Include="obj\Release\netcoreapp2.0\GradeBook.csproj.CoreCompileInputs.cache" />
   </ItemGroup>
+
   <ItemGroup>
     <Compile Include="Enums\EnrollmentType.cs" />
     <Compile Include="Enums\GradeBookType.cs" />
@@ -42,7 +33,6 @@
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
   </ItemGroup>
-<<<<<<< HEAD
 
   <ItemGroup>
     <Folder Include="bin\Debug\netcoreapp2.0\" />
@@ -63,11 +53,4 @@
     <None Include="obj\Release\netcoreapp2.0\GradeBook.csprojAssemblyReference.cache" />
   </ItemGroup>
 
-=======
-  <ItemGroup>
-    <Folder Include="bin\Debug\netcoreapp2.0\" />
-    <Folder Include="bin\Release\netcoreapp2.0\" />
-    <Folder Include="obj\Debug\netcoreapp2.0\TempPE\" />
-  </ItemGroup>
->>>>>>> 7ee00acfa38b834006b5a1300fcc6b8460b40e5a
 </Project>
