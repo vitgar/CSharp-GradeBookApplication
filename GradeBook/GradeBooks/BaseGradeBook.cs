@@ -266,7 +266,7 @@ namespace GradeBook.GradeBooks
                              from type in assembly.GetTypes()
                              where type.FullName == "GradeBook.GradeBooks.StandardGradeBook"
                              select type).FirstOrDefault();
-            
+
             return JsonConvert.DeserializeObject(json, gradebook);
         }
     }
