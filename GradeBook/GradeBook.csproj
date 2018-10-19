@@ -6,13 +6,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{CBEE8E95-8489-45AE-93A9-D8B65878B148}</ProjectGuid>
     <OutputType>Exe</OutputType>
-<<<<<<< HEAD
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <StartupObject />
     <ApplicationIcon />
   </PropertyGroup>
-  
-=======
+  <PropertyGroup>
     <RootNamespace>GradeBook</RootNamespace>
     <AssemblyName>GradeBook</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -20,6 +18,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
+  
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
@@ -49,12 +48,10 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
->>>>>>> 3038a659a832ad76dab41cf07badbd900b6588dd
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-<<<<<<< HEAD
   
   <ItemGroup>
 
@@ -82,12 +79,9 @@
     <Content Include="obj\project.assets.json" />
   </ItemGroup>
 
-=======
->>>>>>> 3038a659a832ad76dab41cf07badbd900b6588dd
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-<<<<<<< HEAD
 
   <ItemGroup>
     <Folder Include="bin\Debug\netcoreapp2.0\" />
@@ -111,7 +105,5 @@
     <None Include="obj\Release\netcoreapp2.0\GradeBook.csproj.CoreCompileInputs.cache" />
   </ItemGroup>
 
-=======
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
->>>>>>> 3038a659a832ad76dab41cf07badbd900b6588dd
 </Project>
