@@ -4,14 +4,63 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <StartupObject />
+    <ApplicationIcon />
   </PropertyGroup>
-
+  
   <ItemGroup>
     <None Remove="*.gdbk" />
+  </ItemGroup>
+  
+  <ItemGroup>
+
+    <Compile Include="Enums\GradeBookType.cs" />
+
+    <Compile Include="GradeBooks\RankedGradeBook.cs" />
+
+    <Compile Include="GradeBooks\StandardGradebook.cs" />
+
+    <Compile Include="Program.cs" />
+    <Compile Include="Enums\EnrollmentType.cs" />
+    <Compile Include="Enums\StudentType.cs" />
+    <Compile Include="GradeBooks\BaseGradeBook.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.1\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.1\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.1\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" /> 
+    <Compile Include="Student.cs" />
+    <Compile Include="UserInterfaces\GradeBookUserInterface.cs" />
+    <Compile Include="UserInterfaces\StartingUserInterface.cs" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Content Include="obj\Debug\netcoreapp2.0\GradeBook.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\netcoreapp2.1\GradeBook.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\netcoreapp2.0\" />
+    <Folder Include="bin\Debug\netcoreapp2.1\" />
+    <Folder Include="bin\Release\netcoreapp2.0\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\netcoreapp2.0\GradeBook.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp2.0\GradeBook.assets.cache" />
+    <None Include="obj\Debug\netcoreapp2.0\GradeBook.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp2.1\GradeBook.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp2.1\GradeBook.assets.cache" />
+    <None Include="obj\Debug\netcoreapp2.1\GradeBook.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp2.1\GradeBook.csprojAssemblyReference.cache" />
+    <None Include="obj\GradeBook.csproj.nuget.cache" />
+    <None Include="obj\GradeBook.csproj.nuget.g.props" />
+    <None Include="obj\GradeBook.csproj.nuget.g.targets" />
+    <None Include="obj\Release\netcoreapp2.0\GradeBook.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\netcoreapp2.0\GradeBook.assets.cache" />
+    <None Include="obj\Release\netcoreapp2.0\GradeBook.csproj.CoreCompileInputs.cache" />
   </ItemGroup>
 
 </Project>
