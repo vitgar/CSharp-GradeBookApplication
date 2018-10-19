@@ -17,6 +17,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
   </PropertyGroup>
   
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -48,19 +49,11 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
   
   <ItemGroup>
-
     <Compile Include="Enums\GradeBookType.cs" />
-
     <Compile Include="GradeBooks\RankedGradeBook.cs" />
-
     <Compile Include="GradeBooks\StandardGradebook.cs" />
-
     <Compile Include="Program.cs" />
     <Compile Include="Enums\EnrollmentType.cs" />
     <Compile Include="Enums\StudentType.cs" />
@@ -71,6 +64,7 @@
     <Compile Include="Student.cs" />
     <Compile Include="UserInterfaces\GradeBookUserInterface.cs" />
     <Compile Include="UserInterfaces\StartingUserInterface.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   
   <ItemGroup>
