@@ -1,0 +1,14 @@
+C:\Users\vgarcia\Documents\GitHub\CSharp-GradeBookApplication\GradeBook\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\vgarcia\Documents\GitHub\CSharp-GradeBookApplication\GradeBook\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\vgarcia\Documents\GitHub\CSharp-GradeBookApplication\GradeBook\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\vgarcia\Documents\GitHub\CSharp-GradeBookApplication\GradeBook\bin\Debug\netcoreapp2.0\GradeBook.deps.json
+C:\Users\vgarcia\Documents\GitHub\CSharp-GradeBookApplication\GradeBook\bin\Debug\netcoreapp2.0\GradeBook.runtimeconfig.json
+C:\Users\vgarcia\Documents\GitHub\CSharp-GradeBookApplication\GradeBook\bin\Debug\netcoreapp2.0\GradeBook.runtimeconfig.dev.json
+C:\Users\vgarcia\Documents\GitHub\CSharp-GradeBookApplication\GradeBook\bin\Debug\netcoreapp2.0\GradeBook.dll
+C:\Users\vgarcia\Documents\GitHub\CSharp-GradeBookApplication\GradeBook\bin\Debug\netcoreapp2.0\GradeBook.pdb
+C:\Users\vgarcia\Documents\GitHub\CSharp-GradeBookApplication\GradeBook\obj\Debug\netcoreapp2.0\GradeBook.csprojAssemblyReference.cache
+C:\Users\vgarcia\Documents\GitHub\CSharp-GradeBookApplication\GradeBook\obj\Debug\netcoreapp2.0\GradeBook.csproj.CoreCompileInputs.cache
+C:\Users\vgarcia\Documents\GitHub\CSharp-GradeBookApplication\GradeBook\obj\Debug\netcoreapp2.0\GradeBook.AssemblyInfoInputs.cache
+C:\Users\vgarcia\Documents\GitHub\CSharp-GradeBookApplication\GradeBook\obj\Debug\netcoreapp2.0\GradeBook.AssemblyInfo.cs
+C:\Users\vgarcia\Documents\GitHub\CSharp-GradeBookApplication\GradeBook\obj\Debug\netcoreapp2.0\GradeBook.dll
+C:\Users\vgarcia\Documents\GitHub\CSharp-GradeBookApplication\GradeBook\obj\Debug\netcoreapp2.0\GradeBook.pdb
